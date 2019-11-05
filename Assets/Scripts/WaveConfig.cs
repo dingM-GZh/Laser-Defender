@@ -33,4 +33,8 @@ public class WaveConfig : ScriptableObject {
     public int GetNumberOfEnemies() {
         return enemy_count;
     }
+
+    public float GetMoveSpeed() {
+        return move_speed;
+    }
 }
